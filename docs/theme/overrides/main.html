@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block libs %}
+{{ super() }}
+{% endblock %}
+{% block extrahead %}
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+{% endblock %}
+{% block announce %}{% include "announce.html" ignore missing %}{% endblock %}
+{% block content %}
+  {{ super() }}
+{% endblock %}

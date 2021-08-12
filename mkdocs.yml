@@ -1,0 +1,81 @@
+# Project information
+site_name: Codebase iOS
+site_url: https://playcourt.telkom.co.id
+site_author: telkomdev-arifrach31, telkomdev-JohanesKalas
+site_description: >-
+  Welcome to documentation for guideline development iOS Application and foundation 
+  for initiate iOS Project on TelkomDev with Architecture MVVM and Reactive
+  Programming.
+
+docs_dir: docs/src
+theme:
+  name: material
+  custom_dir: docs/theme
+  logo: assets/icon/icon.png
+  favicon: assets/icon/icon.png
+  icon:
+    repo: fontawesome/brands/gitlab
+  palette:
+     scheme: swifty-dark
+     primary: deep orange
+     accent: blue
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+    - search.share
+
+extra_css:
+  - stylesheets/hint.min.css
+  - stylesheets/extra-9f2612b5f7.css
+
+plugins:
+  - search
+  - tooltips
+  - macros
+  - minify:
+      minify_html: true
+      minify_js: true
+
+# Repository
+repo_url: https://gitlab.playcourt.id/telkomdev/codebase-ios
+repo_name: Let's Try!
+copyright: Copyright &copy; 2021 Telkom DEV
+
+# Navigation
+nav:
+  - Home: index.md
+  - Documentation: 
+    - Introduction:
+      - Prerequisite: pages/introduction/prerequisite.md
+      - Architecture: pages/introduction/architecture.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - footnotes
+  - def_list
+  - pymdownx.snippets
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - attr_list
+  - admonition
+  - meta
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      toc_depth: 3
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+
+extra:
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.playcourt.id/mobileteam
