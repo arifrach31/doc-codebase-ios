@@ -11,8 +11,8 @@ docs_dir: docs/src
 theme:
   name: material
   custom_dir: docs/theme
-  logo: assets/icon/icon.png
-  favicon: assets/icon/icon.png
+  logo: resources/assets/icon/icon.png
+  favicon: resources/assets/icon/icon.png
   icon:
     repo: fontawesome/brands/gitlab
   palette:
@@ -30,8 +30,8 @@ theme:
     - search.share
 
 extra_css:
-  - stylesheets/hint.min.css
-  - stylesheets/extra-9f2612b5f7.css
+  - resources/stylesheets/hint.min.css
+  - resources/stylesheets/extra-9f2612b5f7.css
 
 plugins:
   - search
@@ -53,6 +53,8 @@ nav:
     - Introduction:
       - Prerequisite: pages/introduction/prerequisite.md
       - Architecture: pages/introduction/architecture.md
+    - Networking:
+      - Integration API: pages/networking/integration-api.md
 
 markdown_extensions:
   - pymdownx.highlight

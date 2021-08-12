@@ -1261,7 +1261,7 @@ html {
     color: var(--md-primary-fg-color);
 }
 [data-md-color-scheme="swifty-dark"] .md-tabs__link:hover {
-    color: var(--md-accent-fg-color);
+    color: #fea28f;
 }
 [data-md-color-scheme="swifty-dark"] .md-hero {
     color: var(--md-text-color);
@@ -1278,7 +1278,7 @@ html {
 }
 [data-md-color-scheme="swifty-dark"] .md-nav__link:focus,
 [data-md-color-scheme="swifty-dark"] .md-nav__link:hover {
-    color: var(--md-accent-fg-color);
+    color: #fea28f;
 }
 [data-md-color-scheme="swifty-dark"] .md-search__input {
     color: var(--md-text-color);
@@ -1365,6 +1365,11 @@ html {
 .md-typeset pre > code:hover,
 .md-typeset__scrollwrap:hover {
     scrollbar-color: var(--md-accent-fg-color) transparent;
+}
+
+.md-typeset h1 {
+    color: white;
+    font-weight: bold;
 }
 @media screen and (max-width: 59.9375em) {
     .md-header-nav__scheme {

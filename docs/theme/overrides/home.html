@@ -271,6 +271,7 @@
     transition: color 125ms;
     background-color: 125ms;
     border-color: 125ms;
+    margin-top: 15px;
   }
   
   .component-wrapper a:hover {
@@ -292,14 +293,14 @@
             <div class="first-column">
               <h3>Hello Dev <span style="color: var(--md-primary-fg-color);">/></span></h3>
               <p> {{ config.site_description }} </p> 
-              <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+              <a href="pages/introduction/prerequisite" title="Get Started" class="md-button md-button--primary">
                 Get Started
               </a>
             </div>
             <div class="second-column">
               <div class="image-wrapper">
                 <img
-                  src="assets/images/programmer.svg"
+                  src="resources/assets/images/illustration.svg"
                   alt="devbase"
                   draggable="false"
                 >
