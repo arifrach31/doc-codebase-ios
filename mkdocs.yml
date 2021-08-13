@@ -51,7 +51,7 @@ nav:
   - Home: index.md
   - Documentation: 
     - Introduction:
-      - Prerequisite: pages/introduction/prerequisite.md
+      - Overview: pages/introduction/overview.md
       - Architecture: pages/introduction/architecture.md
     - Networking:
       - Integration API: pages/networking/integration-api.md
